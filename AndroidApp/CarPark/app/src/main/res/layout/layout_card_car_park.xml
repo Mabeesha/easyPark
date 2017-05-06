@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
     <android.support.v7.widget.CardView
@@ -9,25 +10,30 @@
         android:layout_height="80dp">
 
         <RelativeLayout
+            android:id="@+id/card_layout"
             android:layout_gravity="center_vertical"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="80dp"
             android:orientation="horizontal">
 
             <TextView
+                android:layout_centerVertical="true"
+                android:textColor="@color/colorYellowText"
                 android:layout_marginLeft="20dp"
                 android:padding="10dp"
                 android:id="@+id/txt_park_name"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 android:text="Car Park Name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <TextView
+                android:layout_centerVertical="true"
+                android:textColor="@color/colorYellowText"
                 android:padding="10dp"
                 android:layout_marginRight="20dp"
                 android:id="@+id/txt_park_slots"
-                android:textSize="20sp"
+                android:textSize="30sp"
                 android:text="20/50"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

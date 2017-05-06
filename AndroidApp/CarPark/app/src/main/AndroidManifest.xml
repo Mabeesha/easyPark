@@ -19,7 +19,14 @@
 
         <activity android:name=".CarParkMain"
             android:parentActivityName=".MainActivity"/>
-        <activity android:name=".FloorOne"
+
+        <activity android:name=".Floor1"
+            android:parentActivityName=".CarParkMain"/>
+
+        <activity android:name=".Floor2"
+            android:parentActivityName=".CarParkMain"/>
+
+        <activity android:name=".Floor3"
             android:parentActivityName=".CarParkMain"/>
 
     </application>
